@@ -1,0 +1,21 @@
+行业/场景,公司或研究机构,解决的问题,采用的方法,输入参数,输出结果,是否能预测胶宽/胶高/位置,是否支持现场补偿,对本项目的参考价值,来源链接
+汽车/电池/电子胶条,Coherix 3D,在线胶条质量检测与自适应控制,喷嘴周围360度多激光3D检测+APC,机器人路径;胶嘴位置;胶条规格;在线轮廓,胶宽;胶高;体积;位置;连续性;缺陷,检测胶宽胶高体积位置,支持Z跟踪横向跟踪TCP定位体积控制,极高：可作为现场检测和闭环参考,https://coherix.com/predator3d/
+汽车/电池/电子胶条,Coherix AutoRepair,断胶气泡低体积缺陷自动修补,在线3D检测+自动修补路径,胶条实时3D轮廓;缺陷阈值,修补指令;缺陷记录,检测并修补宽高体积相关缺陷,支持自动修补,极高：对应减少人工返修,https://coherix.com/auto-repair-for-adhesive-dispensing/
+汽车胶条,Coherix 3D TCP Locator,胶嘴弯曲换嘴后TCP偏差导致胶位偏差,3D测量实际喷嘴位置并更新机器人TCP,名义TCP;实际喷嘴3D位置,机器人TCP偏移;路径修正,间接保障位置精度,支持实时TCP补偿,极高：对应现场安装误差补偿,https://coherix.com/coherix-3d-tcp-locator/
+汽车/电子/医疗,Atlas Copco SCA/Scheugenpflug RTVision,点胶质量检测追溯与缺陷预防,2D/3D在线或后置视觉检测,胶条图像;轮廓;规格阈值,宽度;高度;体积;位置;连续性;追溯数据,检测胶宽胶高体积位置,部分支持反馈,很高：工业成熟方案,https://www.atlascopco.com/en-ca/itba/plp/dispensing-potting-bonding/integrated-bead-inspection
+汽车胶粘密封,Nordson+Coherix,点胶控制器与3D检测一体化,Process Sentry PLC+Predator3D,计量参数;机器人状态;3D轮廓,质量反馈;自动修正;过程监控,检测3D胶条,支持自动修正,很高：控制器集成方式可借鉴,https://coherix.com/nordson-coherix-fully-integrated-bead-dispensing-inspection-and-process-control-solution/
+汽车密封,Dürr,白车身密封质量节拍和自动化,机器人密封系统+专用喷嘴,车身路径;喷嘴类型;材料,高质量密封;减少材料和返工,公开资料未明确预测宽高,未明确,中高：工艺装备和喷嘴创新参考,https://www.durr.com/en/products/sealing-gluing-technology/sealing-process
+汽车BIW,ABB Integrated Dispensing Function Package,路径速度计量喷嘴协同控制,机器人路径速度与计量器喷嘴协同,机器人速度;路径;计量器参数,正确位置形状和胶量,公开资料强调控制形状数量但未给预测模型,未明确,高：说明机器人与计量必须协同,https://new.abb.com/products/robotics/manufacturing-solutions/body-in-white/technologies-and-process-expertise/mechanical-joining-techniques
+航空机器人涂胶,2025数字孪生论文,胶线质量预测和转角堆胶优化,数字孪生+监测+预测+参数优化,涂胶轨迹;参数;传感数据,胶线宽度厚度预测;参数优化,可预测宽度厚度,未重点,极高：本项目质量仿真直接参考,https://www.sciencedirect.com/science/article/abs/pii/S0278612525001177
+工业胶水点胶,KU Leuven等2025,现场调参耗时昂贵,线激光检测+贝叶斯优化+人机协同调试,喷嘴高度;机器人速度;预压力;轮廓数据,胶宽和截面积方差;最优参数,检测宽度和面积并优化,未重点,极高：现场少样本调参参考,https://link.springer.com/article/10.1007/s00170-025-15121-w
+高黏度挤出/3D打印,UMich等2022,高黏度流体动态滞后和非线性导致质量差,集总参数流动模型+iLQR路径补偿,路径;流体模型参数;沉积动态,补偿后的沉积路径,间接预测沉积质量,支持路径补偿,高：动态滞后补偿可迁移,https://arxiv.org/abs/2210.10747
+导电胶点胶,Frontiers 2023,高黏度接触点胶液滴形貌,计算机仿真+实验验证,黏度;表面张力;接触角;提升速度,液滴/胶形貌趋势,可预测形貌趋势,否,中高：材料参数影响机理参考,https://www.frontiersin.org/articles/10.3389/fmats.2023.1183747
+点胶装备数字孪生,Siemens/RAMPF,点胶体积预测和机器配置加速,Amesim液压管路泵阀模型+LiveTwin,液压;管路;泵阀;材料流动参数,所需点胶体积和最优配置,预测点胶体积,设备级支持,高：设备动态模型参考,https://resources.sw.siemens.com/en-US/case-study-rampf-production-systems/
+汽车/工业密封,HA-TEC,密封胶轮廓断胶缺陷检测,3D激光三角测量+自动修补路径,胶条轮廓;缺陷阈值,宽度;高度;位置;断胶;修补路径,检测胶宽胶高位置,支持自动修补路径,高：质量检测和修补逻辑参考,https://ha-tec.com/solutions/vision/sealant-inspection
+汽车/电子,Nextomation,机器人3D胶条检测,3D视觉系统,胶条3D图像,质量检测结果,检测,未明确,中：集成案例参考,https://nextomation.com/case-study/robotic-3d-glue-bead-inspection-system/
+电子FIPG,Modus Advanced,FIP胶条设计公差与起停/T点问题,工艺设计规则和材料经验,材料;路径;高度;宽度;零件公差,设计约束和公差建议,经验性预测宽高关系,否,中：起停和短段公差参考,https://www.modusadvanced.com/form-in-place-gasket-guide
+离线编程/标定,RoboDK,CAD到机器人程序及校准,OLP+机器人标定+测量参考系,CAD;机器人模型;测量点;工具坐标,机器人程序;校准参数,不预测胶条质量,支持坐标和工具补偿,中高：虚实对齐平台参考,https://robodk.com/doc/en/Robot-Calibration-Creaform-Offline-setup.html
+虚拟调试,Siemens Process Simulate,虚拟产线PLC和机器人程序验证,真实PLC/机器人程序仿真+OPC UA,PLC代码;机器人程序;产线模型,可达性;节拍;逻辑验证,不直接预测胶条质量,坐标和逻辑层支持,中高：数字孪生底座参考,https://www.siemens.com/en-gb/products/tecnomatix/process-simulate-software/
+中国专利,CN107702653B,二维视觉无法测胶高及同色胶检测困难,机器人涂胶三维信息视觉检测装置方法,机器人轨迹;激光传感;图像,胶条三维信息,检测三维胶条,部分支持,高：国内专利方向参考,https://patents.google.com/patent/CN107702653B/zh
+视觉引导涂胶,迁移科技,产品定位偏差和轨迹动态补偿,视觉识别轮廓+路径修正,产品图像;轮廓;标定关系,修正后涂胶轨迹,主要保障位置,支持路径补偿,中：国内视觉引导思路参考,https://www.transfertech.cn/news/A3iU4Hns.html
+机器人点胶视觉,Nordson EFD/Assembly Magazine,小量流体点胶精度和高度变化,CCD视觉+激光测高+DispenseMotion,图像;高度;点胶程序,点胶位置和高度修正,位置/高度辅助不完整胶条预测,支持视觉引导,中：电子/小件视觉引导参考,https://www.assemblymag.com/articles/95677-the-role-of-vision-in-robotic-dispensing
